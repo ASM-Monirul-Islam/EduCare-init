@@ -106,14 +106,17 @@
 }
 
 #menu-section {
-	/* display: none; */
+  position: fixed;
+  top: 60px;
+  min-height: 50vh;
+  right: 0;
 	height: fit-content;
 	padding: 10px 20px;
-	width: 100%;
+	width: 30%;
 	border: none;
 	background-color: white;
 	box-shadow: 0 0 10px;
-	margin: 5px;
+	margin: 2px 0px;
 	border-radius: 10px;
 }
 
@@ -175,10 +178,11 @@
 	.mobile-menu{
 		display: flex;
 	}
-
+  #menu-section {
+  top: 40px;
 }
 
-
+}
 .hidden {
   display: none;
 }
