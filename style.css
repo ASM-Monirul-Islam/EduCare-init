@@ -219,7 +219,7 @@
   }
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 500px) {
 	.right-nav {
 		display:none;
 	}
